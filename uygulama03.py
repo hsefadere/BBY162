@@ -1,6 +1,6 @@
 """
 __author__= Harun Sefa DERE
-13.04.2019
+12.04.2019
 """
 #Adam asmaca oyunu
 name=input("Lütfen isminizi giriniz:")
@@ -35,7 +35,6 @@ while hak <= maxcan and tablo !=gizlikelime:
         print("Güzel !!", tahmin, "harfi kelimede mevcut ")
         print("************************")
         yeni = ""
-
         for i in range(len(gizlikelime)):
             if tahmin == gizlikelime[i]:
                 yeni += tahmin
