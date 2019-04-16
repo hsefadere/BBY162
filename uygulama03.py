@@ -1,5 +1,5 @@
 """
-__author__=Harun Sefa DERE
+__author__= Harun Sefa DERE
 13.04.2019
 """
 #Adam asmaca oyunu
@@ -22,13 +22,13 @@ havuz = []
 
 while hak <= maxcan and tablo !=gizlikelime:
     print(AdamAsmaca[hak])
-    print("\nBu harfleri kullandın: ", havuz )
+    print("Bu harfleri kullandın: ", havuz )
     print("Kelime: ", tablo)
     print("Kalan can: ", 5-hak)
-    tahmin = input("\nHarf giriniz: ").lower()
+    tahmin = input("Harf giriniz: ").lower()
 
     while tahmin in havuz:
-        print("\nBu harf zaten kullanıldı.")
+        print("Bu harf zaten kullanıldı.")
         tahmin = input("Harf giriniz: ").lower()
     havuz.append(tahmin)
     if tahmin in gizlikelime:
@@ -48,9 +48,9 @@ while hak <= maxcan and tablo !=gizlikelime:
         hak += 1
 #adam asmaca sonu
 if hak > maxcan:
-    print("\nKaybettinn")
+    print("Kaybettinn :(")
     print("Cevap: ", gizlikelime)
 else:
-    print("\nTebrikler!! Kazandın :)")
+    print("Tebrikler!! Kazandın :)")
     print("Cevap: ", gizlikelime)
     
