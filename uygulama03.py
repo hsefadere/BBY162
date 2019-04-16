@@ -8,7 +8,7 @@ print("Adam asmaca oyununa hoşgeldin" ,name)
 print("Konumuz renkler, hadi başlayalım")
 #**************************#
 import random
-AdamAsmaca = ("=====","====","===","==","=")
+AdamAsmaca = ("☺☺☺☺☺","☺☺☺☺","☺☺☺","☺☺","☺",)
 maxcan = len(AdamAsmaca) - 1
 kelimeler = ("mavi","turuncu","sarı","siyah","beyaz","lacivert",
              "kırmızı","yeşil","mor","kahverengi","turkuaz","bej",
