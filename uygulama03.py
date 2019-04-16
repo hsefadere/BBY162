@@ -25,11 +25,11 @@ while hak <= maxcan and tablo !=gizlikelime:
     print("Bu harfleri kullandın: ", havuz )
     print("Kelime: ", tablo)
     print("Kalan can: ", 5-hak)
-    tahmin = input("Harf giriniz: ").lower()
+    tahmin = input("\nHarf giriniz: ").lower()
 
     while tahmin in havuz:
         print("Bu harf zaten kullanıldı.")
-        tahmin = input("Harf giriniz: ").lower()
+        tahmin = input("\nHarf giriniz: ").lower()
     havuz.append(tahmin)
     if tahmin in gizlikelime:
         print("Güzel !!", tahmin, "harfi kelimede mevcut ")
