@@ -9,6 +9,7 @@ print("Konumuz renkler, hadi başlayalım")
 #**************************#
 import random
 AdamAsmaca = ("☺☺☺☺☺","☺☺☺☺","☺☺☺","☺☺","☺",)
+#emoji için bilgisayar çalıştır penceresine charmap yaz, oradan seç !!!!!!!
 maxcan = len(AdamAsmaca) - 1
 kelimeler = ("mavi","turuncu","sarı","siyah","beyaz","lacivert",
              "kırmızı","yeşil","mor","kahverengi","turkuaz","bej",
