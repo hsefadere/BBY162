@@ -1,5 +1,6 @@
 """
 __author__=Harun Sefa DERE
+13.04.2019
 """
 #Adam asmaca oyunu
 name=input("Lütfen isminizi giriniz:")
