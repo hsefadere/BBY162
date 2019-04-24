@@ -17,7 +17,7 @@ print("********************************************")
 
 sozluk = {"elma" : "Ağaçta yetişen bir tür meyve" , "salatalık" : "Fidan üzerinde büyüyen bir tür sebze" }
 
-kelime= input("Aradığınız kelimeyi lütfen buraya yazınız:")
+kelime= input("Aradığınız kelimeyi lütfen küçük harflerle buraya yazınız:")
 
 
 while True:
